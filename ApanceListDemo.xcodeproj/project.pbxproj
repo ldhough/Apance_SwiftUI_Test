@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4802FCDE24CE31110096EA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802FCDD24CE31110096EA49 /* AppDelegate.swift */; };
 		4802FCE024CE31110096EA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802FCDF24CE31110096EA49 /* SceneDelegate.swift */; };
-		4802FCE224CE31110096EA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802FCE124CE31110096EA49 /* ContentView.swift */; };
 		4802FCE424CE31130096EA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4802FCE324CE31130096EA49 /* Assets.xcassets */; };
 		4802FCE724CE31130096EA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4802FCE624CE31130096EA49 /* Preview Assets.xcassets */; };
 		4802FCEA24CE31130096EA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4802FCE824CE31130096EA49 /* LaunchScreen.storyboard */; };
+		4802FCF224CE31720096EA49 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802FCF124CE31710096EA49 /* Artist.swift */; };
+		4802FCF424CE32620096EA49 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802FCF324CE32620096EA49 /* ArtistListView.swift */; };
+		4802FCF624CE32910096EA49 /* AddArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802FCF524CE32910096EA49 /* AddArtistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4802FCDA24CE31110096EA49 /* ApanceListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApanceListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4802FCDD24CE31110096EA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4802FCDF24CE31110096EA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4802FCE124CE31110096EA49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4802FCE324CE31130096EA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4802FCE624CE31130096EA49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4802FCE924CE31130096EA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4802FCEB24CE31130096EA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4802FCF124CE31710096EA49 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		4802FCF324CE32620096EA49 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
+		4802FCF524CE32910096EA49 /* AddArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArtistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				4802FCDD24CE31110096EA49 /* AppDelegate.swift */,
 				4802FCDF24CE31110096EA49 /* SceneDelegate.swift */,
-				4802FCE124CE31110096EA49 /* ContentView.swift */,
+				4802FCF324CE32620096EA49 /* ArtistListView.swift */,
+				4802FCF524CE32910096EA49 /* AddArtistView.swift */,
+				4802FCF124CE31710096EA49 /* Artist.swift */,
 				4802FCE324CE31130096EA49 /* Assets.xcassets */,
 				4802FCE824CE31130096EA49 /* LaunchScreen.storyboard */,
 				4802FCEB24CE31130096EA49 /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				4802FCDE24CE31110096EA49 /* AppDelegate.swift in Sources */,
 				4802FCE024CE31110096EA49 /* SceneDelegate.swift in Sources */,
-				4802FCE224CE31110096EA49 /* ContentView.swift in Sources */,
+				4802FCF224CE31720096EA49 /* Artist.swift in Sources */,
+				4802FCF624CE32910096EA49 /* AddArtistView.swift in Sources */,
+				4802FCF424CE32620096EA49 /* ArtistListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
